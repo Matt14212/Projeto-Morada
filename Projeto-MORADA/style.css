@@ -76,3 +76,26 @@
 .bg-card-not{
     background-color: #ffffff !important;
 }
+
+.card{
+    border: 2px solid #000;
+    margin: solid #000 1px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.card-body{
+    flex-grow: 1;
+}
+.textoC{
+    background-color: darksalmon;
+    width: 100%;
+    padding: 10px;
+}
+.btn{
+    background-color: #223550;
+}
+.custom-section {
+    padding: 60px 0;
+    align-items: center;
+}
