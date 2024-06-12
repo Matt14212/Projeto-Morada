@@ -53,6 +53,15 @@
     background-repeat: no-repeat; /* Evita que a imagem se repita */
 }
 
+.card-img{
+    display: block;
+    margin: auto; /* Centraliza horizontalmente */
+    max-width: 300px;
+    max-height: 200px;
+    width: auto;
+    height: auto;
+}
+
 .bg-card{
     background-color: #223550 !important;
     color: #FFF !important;
