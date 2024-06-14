@@ -1,6 +1,11 @@
 .bg-menu{
     background-color: #223550;
 }
+
+h4{
+    margin-bottom: 20px;
+}
+
 .navbar-nav li a{
     color: #FFF !important;
     border-bottom: 4px solid #223550 !important;
@@ -51,6 +56,12 @@
     background-position: center;
     background-repeat: no-repeat; 
 }
+.img-estampa{
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 
 .card-img{
     display: block;
@@ -78,6 +89,7 @@
 .espacamento{
     margin:  60px 0 !important;
 }
+
 .col -sm{
     margin-bottom: 5px !important;
 }
@@ -146,7 +158,7 @@ div.barra-card {
     flex-grow: 1;
 }
 .textoC{
-    background-color: darksalmon;
+    background-color: #d1b19c;
     width: 100%;
     padding: 10px;
 }
@@ -163,4 +175,108 @@ div.barra-card {
 }
 .titulo{
     margin-top: 50px;
+}
+
+.fi{
+    color: #223550;
+    margin: 6px;
+}
+
+.fi-sr-bed{
+    size: 100rem;
+}
+/*-------------- FOOTER -----------*/
+footer {
+    background-color: #223550;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .footer-column {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+  }
+  
+  .footer-column h3 {
+    margin-top: 0;
+  }
+  
+  .footer-column ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-column ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-column ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footer-column ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-column p {
+    margin: 0 0 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .footer-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .footer-column {
+      max-width: 400px;
+      width: 100%;
+      text-align: center;
+    }
+  }
+  /*---------------------------------*/
+
+#direitos{
+    text-align: center;
+}
+.centro{
+    text-align: center;
+    color: black;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin-right: 15%;
+    margin-bottom: 20rem;
+    margin-left: 15%;
+
+    --bs-bg-opacity: 1;
+    background-color: white !important;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.col-sm-3{
+    padding-bottom: 10px;
+    content: center;
+}
+
+.form-select{
+    width: 80%;
+    display: flex;
 }
