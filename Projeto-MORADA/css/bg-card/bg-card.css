@@ -1,0 +1,36 @@
+.bg-card{
+  background-color: #223550 !important;
+  color: #FFF !important;
+}
+.btn-card{
+  color: #FFF !important;
+  background-color: #223550 !important;
+  border: 1px solid #FFF !important;
+}
+.btn-card:hover{
+  color: #223550 !important;
+  background-color: #FFF !important;
+  border: 1px solid #223550 !important;
+}
+.bg-card-not{
+  background-color: #ffffff !important;
+}
+
+.card-text{
+  text-align: left;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+
+.card-icon{
+  display: block;
+  margin: left; /* Centraliza horizontalmente */
+  margin-left: 20px;
+  margin-bottom: 10px;
+  max-width: 50px;
+  max-height: 40px;
+  width: auto;
+  height: auto;
+  
+}
+
