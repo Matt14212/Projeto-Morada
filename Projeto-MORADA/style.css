@@ -106,7 +106,6 @@ h4{
 .card-text{
     text-align: left;
     padding-left: 20px;
-    padding-top: 10px;
 }
 
 .card-icon{
@@ -129,11 +128,13 @@ div.barra-card {
     margin-bottom: 10px;
     background-color: #eaeaea;
 }
+
 .text-espaco{
     text-align: center;
     padding-top: 10px;
     margin-right: 10px;
 }
+
 .espaco{
     margin-right: 50px;
 }
