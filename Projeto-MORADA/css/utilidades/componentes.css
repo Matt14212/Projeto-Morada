@@ -1,0 +1,35 @@
+.espacamento{
+  margin:  60px 0 !important;
+}
+.col -sm{
+  margin-bottom: 5px !important;
+}
+.col {
+  max-width: 400px;
+  max-height: 600px;
+  width: auto;
+  height: auto;
+}
+
+.align {
+  width: 100%;
+}
+
+.align-p{
+  float: left;
+  margin-right: 20px; 
+}
+
+.textoC{
+  background-color: darksalmon;
+  width: 100%;
+  padding: 10px;
+}
+
+.textoD{
+  padding: 10px;
+  font-weight: 500;
+}
+.titulo{
+  margin-top: 50px;
+}

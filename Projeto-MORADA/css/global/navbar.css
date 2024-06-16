@@ -1,0 +1,21 @@
+.bg-menu{
+  background-color: #223550;
+}
+.navbar-nav li a{
+  color: #FFF !important;
+  border-bottom: 4px solid #223550 !important;
+}
+.navbar-nav li a:hover{
+  color: #FFF;
+  border-bottom: 4px solid #FFF !important;
+}
+.navbar-nav li{
+  padding: 0px 10px;
+}
+.dropdown-menu{
+  background-color: #223550 !important;
+}
+.dropdown-menu li a:hover{
+  color: #FFF !important;
+  background-color: #FFF !important;
+}

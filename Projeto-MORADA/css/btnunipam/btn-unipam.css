@@ -1,0 +1,10 @@
+.btn-unipam{
+  color: #FFF !important;
+  background-color:#223550 !important;
+  border: 2px solid #FFF !important;
+}
+.btn-unipam:hover{
+  color: #223550 !important;
+  background-color: #FFF !important;
+  border: 2px solid #FFF !important;
+}
