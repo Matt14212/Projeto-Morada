@@ -10,15 +10,18 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
   <link rel="stylesheet" type="text/css" href="./css/style.css">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/5.1.3/css/bootstrap.min.css" rel="stylesheet">
 
   <title>Morada</title>
 </head>
 
 <body>
   <header>
-    <nav class="navbar navbar-expand-lg bg-menu">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#"><img class="img-logo" src="img/logo.png" /></a>
+    <div class="container">
+      <nav class="navbar navbar-expand-lg bg-menu fixed-top">
+        <a class="navbar-brand1" href="#">
+          <img class="img-logo" src="img/logo.png" alt="Morada"> 
+        </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -50,19 +53,23 @@
               <a class="nav-link" href="#" aria-disabled="true">Fale Conosco</a>
             </li>
           </ul>
-          <form class="d-flex" role="search">
+          <form class="d-flex mx-auto">
             <input class="form-control me-2" type="search" placeholder="Digite o texto" aria-label="Search">
-            <button class="btn btn-outline-success btn-unipam" type="submit">Entrar</button>
+            <button class="btn btn-outline-success" type="submit">Buscar</button>
           </form>
         </div>
-      </div>
+    </div>
+
     </nav>
-    <img class="img-home" src="img/sala-home.png" />
+
+    <img src="img/sala-home.png">
+
   </header>
 
 
-  <div class="container geral-cards">
-    <section class="custom-section d-flex justify-content-center">
+  <section class="custom-section d-flex justify-content-center">
+    <div class="container geral-cards">
+
       <div class="row g-3 justify-content-center">
         <div class="col-md-4">
           <div class="card text-center">
@@ -98,7 +105,7 @@
           </div>
         </div>
       </div>
-    </section>
+  </section>
   </div>
 
   <div class="textoC">
@@ -195,7 +202,7 @@
       </div>
     </div>
   </section>
-
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>

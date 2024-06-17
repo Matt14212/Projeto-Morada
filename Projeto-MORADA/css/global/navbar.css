@@ -19,3 +19,9 @@
   color: #FFF !important;
   background-color: #FFF !important;
 }
+
+.navbar-brand{
+  color: #FFF;
+  line-height: 1.25rem;
+  padding-left: 100px;
+}
