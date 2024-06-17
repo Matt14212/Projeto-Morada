@@ -1,6 +1,10 @@
-@import "./global/logo-img-home.css";
-@import "./global/navbar.css";
-@import "./card/card.css";
+@import "./bg-card/bg-card.css";
 @import "./btnunipam/btn-unipam.css";
-@import "./utilidades/componentes.css";
 @import "./card/card.css";
+@import "./global/logo-img-home.css";
+@import "./global/img.css";
+@import "./global/footer.css";
+@import "./global/navbar.css";
+@import "./global/global.css";
+@import "./card/card.css";
+@import "./utilidades/componentes.css";
