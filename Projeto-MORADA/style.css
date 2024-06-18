@@ -1,3 +1,101 @@
+/*--------------  Formulário - (Login)  ----------*/
+.formulario{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25rem;
+    border: 1px solid #eaeaea;
+    border-radius: 10px;
+    padding: 20px;
+    height: 100%;
+    background-color: #223550;
+    color: #FFFFFF;
+  }
+
+  .label{
+    font-size: large;
+    font-weight: bold;
+    padding-bottom: 10px;
+  }
+  
+  .input{
+    border: 1px solid #eaeaea;
+    border-radius: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+  
+  .conteudo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem;
+    flex-direction: column;
+  }
+
+  .botao-form{
+    display: flex;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: fit-content;
+    padding: 10px 20px;
+    background-color: white;  
+    color: #223550;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .botao-form:hover {
+    background-color: #223550;
+    color: #FFF;
+    border: 3px solid #FFF;
+    border-radius: 5px;
+  }
+  
+  .botao-form button {
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .resultado{
+    width: 25rem;
+    border: 1px solid #eaeaea;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #223550;
+    color: #FFFFFF;
+    height: 100%;
+    padding-top: 30px;
+  }
+  
+  #cancelarBtn{
+    background-color: #223550;
+    color: #FFF;
+  }
+
+  #cancelarBtn:hover{
+    background-color: #FFF;
+    color: #223550;
+    border: 3px solid #223550;
+    border-radius: 5px;
+  }
+
+
+  /*---------------------------------------------*/
+
+  #btn-login{
+    margin-left: 10px;
+  }
+
 .recuo-texto{
     margin-left: 180px;
 }
