@@ -1,105 +1,71 @@
-.bg-menu{
-    background-color: #223550;
-}
-.navbar-nav li a{
-    color: #FFF !important;
-    border-bottom: 4px solid #223550 !important;
-}
-.navbar-nav li a:hover{
-    color: #FFF;
-    border-bottom: 4px solid #FFF !important;
-}
-.navbar-nav li{
-    padding: 0px 10px;
-}
-.dropdown-menu{
-    background-color: #223550 !important;
-}
-.dropdown-menu li a:hover{
-    color: #FFF !important;
-    background-color: #FFF !important;
-}
-/*---------------------------------------------*/
-.btn-unipam{
-    color: #FFF !important;
-    background-color:#223550 !important;
-    border: 2px solid #FFF !important;
-}
-.btn-unipam:hover{
-    color: #223550 !important;
-    background-color: #FFF !important;
-    border: 2px solid #FFF !important;
-}
-/*----------------------------------------------*/
-
-.img-logo {
+.formulario{
     display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25rem;
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    height: 100%;
+    background-color: #223550;
+    color: #FFFFFF;
+  }
+
+  .label{
+    font-size: large;
+    font-weight: bold;
+    padding-bottom: 10px;
+  }
+  
+  .input{
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+  
+  .conteudo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem;
+    flex-direction: column;
+  }
+
+  .botao-form{
+    display: flex;
+    margin: 0 auto;
+    width: fit-content;
+    padding: 10px 20px;
+    background-color: white;  
+    color: #223550;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    max-width:170px;
-    max-height:70px;
-    width: auto;
-    height: auto;
-    padding-left: 35px;
-    padding-bottom: 10px;
-}
+  }
+  
+  .botao-form button {
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
 
-.img-home{
-    width: 100%;
-    height: 100vh; /* Altura do contêiner */
-    background-image: url('path/to/your/image.jpg');
-    background-size: cover; /* Cobre todo o contêiner */
-    background-position: center; /* Centraliza a imagem */
-    background-repeat: no-repeat; /* Evita que a imagem se repita */
-}
-
-.bg-card{
-    background-color: #223550 !important;
-    color: #FFF !important;
-}
-.btn-card{
-    color: #FFF !important;
-    background-color: #223550 !important;
-    border: 1px solid #FFF !important;
-}
-.btn-card:hover{
-    color: #223550 !important;
-    background-color: #FFF !important;
-    border: 1px solid #223550 !important;
-}
-.espacamento{
-    margin:  60px 0 !important;
-}
-.col -sm{
-    margin-bottom: 5px !important;
-}
-.bg-card-not{
-    background-color: #ffffff !important;
-}
-
-.card{
-    border: 2px solid #000;
-    margin: solid #000 1px;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-}
-.card-body{
-    flex-grow: 1;
-}
-.textoC{
-    background-color: darksalmon;
-    width: 100%;
-    padding: 10px;
-}
-.btn{
+  .resultado{
+    width: 25rem;
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 20px;
     background-color: #223550;
-}
-.custom-section {
-    padding: 60px 0;
-    align-items: center;
-}
-.textoD{
-    padding: 10px;
-    font-weight: 500;
-}
+    color: #FFFFFF;
+    height: 100%;
+    padding-top: 30px;
+  }
+  
+  #cancelarBtn{
+    background-color: red;
+  }
