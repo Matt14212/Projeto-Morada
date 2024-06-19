@@ -1,7 +1,15 @@
 .page-link {
   color: #223550;
   }
-  
+.quem-somos{
+  margin: 40px;
+  margin-top: 120px;
+  text-align: justify;
+  width: 50%;
+}
+.quem-somos h2{
+  margin-bottom: 20px;
+}
 /*--------------  Formulário - (Login)  ----------*/
 .formulario{
     display: flex;
