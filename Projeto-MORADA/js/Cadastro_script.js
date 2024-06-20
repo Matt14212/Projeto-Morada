@@ -8,8 +8,8 @@ window.addEventListener('load', function() {
         if (form.checkValidity()) {
             const emailC = document.getElementById('emailC').value;
             const telC = document.getElementById('telC').value;
-            const opcao = document.querySelector('input[name="gridRadios"]:checked').value;
-            const tipo = document.getElementById('inputState').value;
+            const opcao = document.querySelector('input[name="opcao"]:checked').value;
+            const tipo = document.getElementById('tipo').value;
             const metros = document.getElementById('metros').value;
             const quartos = document.getElementById('quartos').value;
             const banheiros = document.getElementById('banheiros').value;
@@ -19,21 +19,25 @@ window.addEventListener('load', function() {
             const adicionais = document.getElementById('adicionais').value;
 
             resultadoDiv.innerHTML = `
-                <div class="resultado">
-                <h2>Imóvel cadastrado com sucesso</h2>
-                <h3>Dados:</h3>
+                <div class="resultadoC">
+                <h4 style="text-align: center;">Imóvel cadastrado com sucesso!</h4>
+                <hr>
+                <h4><strong>Dados:</strong></h4>
                 <p><strong>Email de contato:</strong> ${emailC}</p>
-                <p><strong>Celular de contato:</strong> ${telC}</p>
+                <p><strong>Telefone de contato:</strong> ${telC}</p>
                 <p><strong>Tipo de negociação:</strong> ${opcao}</p>
                 <p><strong>Tipo do imóvel:</strong> ${tipo}</p>
-                <h3>Dados do imóvel:</h3>
+                <hr>
+                <h4><strong>Dados do imóvel:</strong></h4>
                 <p><strong>Área:</strong> ${metros}m²</p>
                 <p><strong>Quartos:</strong> ${quartos}</p>
                 <p><strong>Banheiros:</strong> ${banheiros}</p>
                 <p><strong>Salas:</strong> ${salas}</p>
                 <p><strong>Endereço:</strong> ${endereco}</p>
                 <p><strong>Valor:</strong> R$${preco}</p>
-                <h3><strong>Informações adicionais:</strong> ${adicionais} </h3>
+                <hr>
+                <h4><strong>Informações adicionais:</strong></h4>
+                <p style="text-align: justify;" id="resultado-info-add"> ${adicionais}</p>
                 </div>
             `;
         } else {

@@ -15,9 +15,9 @@ window.addEventListener('load', function() {
 
             resultadoDiv.innerHTML = `
                 <div class="resultado">
-                <h4>Cadastro realizado com sucesso!</h4>
-                <h5>Seus dados:</h5>
+                <h4 style="text-align: center;">Cadastro realizado com sucesso!</h4>
                 <hr>
+                <h4><strong>Seus Dados: </strong></h4>
                 <p><strong>Nome:</strong> ${nome}</p>
                 <p><strong>Telefone:</strong> ${telefone}</p>
                 <p><strong>Email:</strong> ${email}</p>

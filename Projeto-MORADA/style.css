@@ -96,7 +96,7 @@
 
   .resultado{
     width: 25rem;
-    border: 1px solid #eaeaea;
+    border: none;
     border-radius: 10px;
     padding: 20px;
     background-color: #223550;
@@ -105,6 +105,21 @@
     padding-top: 30px;
   }
   
+  .resultadoC{
+    width: 50rem;
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #223550;
+    color: #FFFFFF;
+    height: 100%;
+    padding-top: 30px;
+  }
+
+  #resultado-info-add{
+    width: 45rem;
+    margin: 10px;
+  }
   #cancelarBtn{
     background-color: #223550;
     color: #FFF;
@@ -125,7 +140,9 @@
   }
 
 .recuo-texto{
-    margin-left: 180px;
+    margin-left: 20px;
+    text-align: left;
+    margin-right: auto;
 }
 
 .bg-menu{
@@ -245,6 +262,17 @@ h4{
     background-position: center;
     background-repeat: no-repeat; 
 }
+
+.img-background {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-image: url('img/sala-home.png');
+    background-size: cover; 
+    background-position: center top;
+    background-repeat: no-repeat; 
+}
+
 .img-estampa{
     width: 100%;
     height: 100%;
