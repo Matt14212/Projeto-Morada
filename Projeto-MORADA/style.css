@@ -1,3 +1,91 @@
+.home{
+  background:url('../img/sala-home.png') no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.home .center{
+  min-height: 85vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home .center form{
+  border: none;
+  border-radius: 15px;
+  background-color: #d2d2d2;
+  padding: 2rem;
+  width: 50rem;
+  margin-top: 1rem;
+}
+
+.home .center form h3{
+  padding-bottom: 1rem;
+  text-align: center;
+  color: #000;
+}
+
+.home .center form .flex{
+  display: flex;
+  gap:1rem;
+  flex-wrap: wrap;
+}
+
+.home .center form .box{
+  flex: 1 1 20rem;
+}
+
+.home .center form .box .input{
+  width: 100%;
+  border: 1px;
+  padding: 1.4rem;
+  color: #000;
+  margin: 1rem 0;
+}
+
+.home .center form .box p{
+  color: #223550;
+  padding-top: 1rem;
+}
+
+.home .center form .box p span{
+  color: #223550;
+}
+
+.botao{
+  border: none;
+  border-radius: 10px; 
+  size: 30px;
+  background-color: #223550;
+  color: #FFF;
+  padding: 10px 20px 10px 20px;
+}
+
+@media (max-width:991px){
+
+  html{
+     font-size: 55%;
+  }
+
+}
+
+@media (max-width:450px){
+
+  html{
+     font-size: 50%;
+  }
+
+ 
+ .center form{
+     gap: 0;
+  }
+
+}
+
+
+
+
 .page-link {
   color: #223550;
   }
@@ -135,9 +223,17 @@
 
   /*---------------------------------------------*/
 
-  #btn-login{
-    margin-left: 10px;
-  }
+#btn-login{
+  margin-left: 10px;
+  margin-right: 50px;
+}
+
+.navbar-toggler {
+  margin-left: 10px;
+  margin-right: 50px;
+  border-color: #FFF;
+  color: #FFF;
+}
 
 .recuo-texto{
     margin-left: 20px;
@@ -197,12 +293,12 @@ h4{
 }
 
 /*---------------------------------------------*/
-.btn-unipam{
+.btn-morada{
     color: #FFF !important;
     background-color:#223550 !important;
-    border: 2px solid #FFF !important;
+    border: 3px solid #FFF !important;
 }
-.btn-unipam:hover{
+.btn-morada:hover{
     color: #223550 !important;
     background-color: #FFF !important;
     border: 2px solid #FFF !important;

@@ -63,20 +63,92 @@
               <a class="nav-link" href="#" aria-disabled="true">Fale Conosco</a>
             </li>
           </ul>
-          <form class="d-flex mx-auto">
+          <form class="ml-auto">
 
-            <a href="login.html" target="_blank" class="btn btn-outline-success btn-unipam" id="btn-login">Login</a>
+            <a href="login.html" target="_blank" class="btn btn-outline-success btn-morada" id="btn-login" style="left: 100%;">Login</a>
 
           </form>
         </div>
     </div>
 
     </nav>
-
-    <div class="img-background"></div>
-
+    
   </header>
 
+  <div style="background-image: url(img/sala-home.png); background-repeat: no-repeat; background-size: 100%;">
+    <div class="home py-3">
+
+      <section class="center py-3">
+  
+        <form action="pesquisa.html" method="post">
+          <h3>Procure a sua nova casa!</h3>
+          <div class="box">
+            <p>Procura a sua Localização</p>
+            <input type="text" name="Localização" required maxlength="50" placeholder="Digite o nome da Cidade" class="input">
+          </div>
+          <div class="flex">
+            <div class="box">
+              <p>Tipo de Propriedade</p>
+              <select name="type" class="input" required>
+                <option value="apartamento">Apartamento</option>
+                <option value="casa">Casa</option>
+  
+              </select>
+            </div>
+            <div class="box">
+              <p>Quantos Banheiros</p>
+              <select name="banheiros" class="input" required>
+                <option value="1">1 Banheiro</option>
+                <option value="2">2 Banheiros</option>
+                <option value="3">3 Banheiros</option>
+                <option value="4">4 Banheiros</option>
+                <option value="5">5 Banheiros</option>
+                <option value="6">6 Banheiros</option>
+                <option value="7">7 Banheiros</option>
+                <option value="8">8 Banheiros</option>
+                <option value="9">9 Banheiros</option>
+              </select>
+            </div>
+            <div class="box">
+              <p>Quantos Quartos</p>
+              <select name="quartos" class="input" required>
+                <option value="1">1 Quarto</option>
+                <option value="2">2 Quartos</option>
+                <option value="3">3 Quartos</option>
+                <option value="4">4 Quartos</option>
+                <option value="5">5 Quartos</option>
+                <option value="6">6 Quartos</option>
+                <option value="7">7 Quartos</option>
+                <option value="8">8 Quartos</option>
+                <option value="9">9 Quartos</option>
+              </select>
+            </div>
+            <div class="box">
+              <p>Preço Máximo</p>
+              <select name="maximo" class="input" required>
+                <option value="10000">10.000 R$</option>
+                <option value="30000">30.000 R$</option>
+                <option value="50000">50.000 R$</option>
+                <option value="100000">100.000 R$</option>
+                <option value="500000">500.000 R$</option>
+                <option value="1000000">1.000.000 R$</option>
+                <option value="1000000">100.000.000 R$</option>
+              </select>
+            </div>
+  
+          </div>
+
+          <div style="padding-top: 30px;">
+            <button ype="submit" value="Buscar" name="search" class="botao">Buscar</button>
+          </div>
+
+        </form>
+  
+      </section>
+  
+    </div>
+  </div>
+  
 
   <section class="custom-section d-flex justify-content-center">
     <div class="container geral-cards">
