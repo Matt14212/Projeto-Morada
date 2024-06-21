@@ -1,3 +1,20 @@
+.botao2{
+  background-color: #223550;
+  color: #FFFFFF;
+  border-radius: 16px;
+  padding: 15px 32px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+
+}
+.botao2:hover {
+  background-color:steelblue ;
+}
+
 .home{
   background:url('../img/sala-home.png') no-repeat;
   background-size: cover;
