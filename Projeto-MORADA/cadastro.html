@@ -61,89 +61,91 @@
       </header>
 
       <div style="background-image: url(img/sala-home.png); background-repeat: no-repeat; background-size: 100%;">
-        <main>
-          <h3 class="titulo text-center">Cadastre-se aqui</h3>
-          <div class="conteudo justify-content-center">
-            <div class="formulario-cadastro row g-3">
-              <form id="imovelForm" class="row g-3">
-                <div class="col-md-6">
-                  <label class="label" for="emailC">Email para contato: </label>
-                  <input type="email" class="input form-control" id="emailC" required placeholder="Exemplo@dominio.com">
-                </div>
-                <div class="col-md-6">
-                  <label class="label" for="telC">Celular para contato: </label>
-                  <input type="tel" class="input form-control" id="telC" required placeholder="(99) 9 9999-9999">
-                </div>
-                <div class="col-md-6">
-                  <label class="label" for="opcao">Pretende vender ou alugar? </label>
-                  <fieldset class="row mb-3">
-                    <div class="col-sm-10">
-                      <div class="form-check">
-                        <input class="form-check-input" type="radio" name="opcao" id="vender" value="Vender" required>
-                        <label class="form-check-label" for="vender">Vender</label>
+        <div class="home py-3">
+          <main>
+            <h3 class="titulo text-center">Cadastre-se aqui</h3>
+            <div class="conteudo justify-content-center">
+              <div class="formulario-cadastro row g-3">
+                <form id="imovelForm" class="row g-3">
+                  <div class="col-md-6">
+                    <label class="label" for="emailC">Email para contato: </label>
+                    <input type="email" class="input form-control" id="emailC" required placeholder="Exemplo@dominio.com">
+                  </div>
+                  <div class="col-md-6">
+                    <label class="label" for="telC">Celular para contato: </label>
+                    <input type="tel" class="input form-control" id="telC" required placeholder="(99) 9 9999-9999">
+                  </div>
+                  <div class="col-md-6">
+                    <label class="label" for="opcao">Pretende vender ou alugar? </label>
+                    <fieldset class="row mb-3">
+                      <div class="col-sm-10">
+                        <div class="form-check">
+                          <input class="form-check-input" type="radio" name="opcao" id="vender" value="Vender" required>
+                          <label class="form-check-label" for="vender">Vender</label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="radio" name="opcao" id="alugar" value="Alugar" required>
+                          <label class="form-check-label" for="alugar">Alugar</label>
+                        </div>
                       </div>
-                      <div class="form-check">
-                        <input class="form-check-input" type="radio" name="opcao" id="alugar" value="Alugar" required>
-                        <label class="form-check-label" for="alugar">Alugar</label>
-                      </div>
-                    </div>
-                  </fieldset>
-                </div>
-                <div class="col-md-6">
-                  <label class="label" for="tipo">Tipo de imóvel: </label>
-                  <select id="tipo" class="form-select" required>
-                    <option value="" disabled selected>Escolha o tipo</option>
-                    <option>Casa</option>
-                    <option>Apartamento</option>
-                  </select>
-                </div>
-                <div class="col-md-6">
-                  <label class="label" for="metros">Tamanho: </label>
-                  <input type="number" class="input form-control" id="metros" required placeholder="Digite aqui o tamanho do imóvel em m²">
-                </div>
-                <div class="col-md-6">
-                  <label class="label" for="quartos">Número de quartos: </label>
-                  <input type="number" class="input form-control" id="quartos" required placeholder="Digite aqui o número de quartos">
-                </div>
-                <div class="col-md-6">
-                  <label class="label" for="banheiros">Número de banheiros: </label>
-                  <input type="number" class="input form-control" id="banheiros" required placeholder="Digite aqui o número de banheiros">
-                </div>
-                <div class="col-md-6">
-                  <label class="label" for="salas">Número de salas: </label>
-                  <input type="number" class="input form-control" id="salas" required placeholder="Digite aqui o número de salas">
-                </div>
-                <div class="col-md-6">
-                  <label class="label" for="endereco">Endereço: </label>
-                  <input type="text" class="input form-control" id="endereco" required placeholder="Digite aqui o endereço">
-                </div>
-                <div class="col-md-6">
-                  <label class="label" for="preco">Valor: </label>
-                  <input type="text" class="input form-control" id="preco" required placeholder="Digite aqui quanto você quer pelo imóvel">
-                </div>
-                <div class="col-md-12">
-                  <label class="label" for="imagem">Adicione fotos e vídeos da propriedade: </label>
-                  <input type="file" class="input form-control" id="imagem">
-                </div>
-                <div class="col-md-12">
-                  <label class="label" for="adicionais">Informações adicionais: </label>
-                  <textarea class="input form-control mensagem" id="adicionais" placeholder="Qualquer outra informação que julgue relevante sobre o imóvel"></textarea>
-                </div>
-                <div class="col-md-12">
-                  <button class="botao-form" type="button" id="cadastrarBtnC">Cadastrar</button>
-                </div>
-              </form>
+                    </fieldset>
+                  </div>
+                  <div class="col-md-6">
+                    <label class="label" for="tipo">Tipo de imóvel: </label>
+                    <select id="tipo" class="form-select" required>
+                      <option value="" disabled selected>Escolha o tipo</option>
+                      <option>Casa</option>
+                      <option>Apartamento</option>
+                    </select>
+                  </div>
+                  <div class="col-md-6">
+                    <label class="label" for="metros">Tamanho: </label>
+                    <input type="number" class="input form-control" id="metros" required placeholder="Digite aqui o tamanho do imóvel em m²">
+                  </div>
+                  <div class="col-md-6">
+                    <label class="label" for="quartos">Número de quartos: </label>
+                    <input type="number" class="input form-control" id="quartos" required placeholder="Digite aqui o número de quartos">
+                  </div>
+                  <div class="col-md-6">
+                    <label class="label" for="banheiros">Número de banheiros: </label>
+                    <input type="number" class="input form-control" id="banheiros" required placeholder="Digite aqui o número de banheiros">
+                  </div>
+                  <div class="col-md-6">
+                    <label class="label" for="salas">Número de salas: </label>
+                    <input type="number" class="input form-control" id="salas" required placeholder="Digite aqui o número de salas">
+                  </div>
+                  <div class="col-md-6">
+                    <label class="label" for="endereco">Endereço: </label>
+                    <input type="text" class="input form-control" id="endereco" required placeholder="Digite aqui o endereço">
+                  </div>
+                  <div class="col-md-6">
+                    <label class="label" for="preco">Valor: </label>
+                    <input type="text" class="input form-control" id="preco" required placeholder="Digite aqui quanto você quer pelo imóvel">
+                  </div>
+                  <div class="col-md-12">
+                    <label class="label" for="imagem">Adicione fotos e vídeos da propriedade: </label>
+                    <input type="file" class="input form-control" id="imagem">
+                  </div>
+                  <div class="col-md-12">
+                    <label class="label" for="adicionais">Informações adicionais: </label>
+                    <textarea class="input form-control mensagem" id="adicionais" placeholder="Qualquer outra informação que julgue relevante sobre o imóvel"></textarea>
+                  </div>
+                  <div class="col-md-12">
+                    <button class="botao-form" type="button" id="cadastrarBtnC">Cadastrar</button>
+                  </div>
+                </form>
 
+              </div>
+      
+              <div id="resultado" style="padding-top: 20px;"></div>
+      
+              <div style="padding-top: 30px;">
+                <button type="button" id="cancelarBtn" class="botao-form">Cancelar</button>
+              </div>
             </div>
-    
-            <div id="resultado" style="padding-top: 20px;"></div>
-    
-            <div style="padding-top: 30px;">
-              <button type="button" id="cancelarBtn" class="botao-form">Cancelar</button>
-            </div>
-          </div>
-        </main>
-        
+          </main>
+        </div>
+      </div>
                 
     
           <footer>

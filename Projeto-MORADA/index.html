@@ -80,72 +80,52 @@
 
       <section class="center py-3">
   
-        <form action="pesquisa.html" method="post">
-          <h3>Procure a sua nova casa!</h3>
+        <form id="imovelForm" class="row g-3">
+          <h3>Encontre a sua nova casa!</h3>
           <div class="box">
-            <p>Procura a sua Localização</p>
-            <input type="text" name="Localização" required maxlength="50" placeholder="Digite o nome da Cidade" class="input">
+              <p class="label1">Procure pela Localização: </p>
+              <input type="text" class="input" name="Localização" required maxlength="50"
+                  placeholder="Digite o nome da Cidade">
           </div>
           <div class="flex">
-            <div class="box">
-              <p>Tipo de Propriedade</p>
-              <select name="type" class="input" required>
-                <option value="apartamento">Apartamento</option>
-                <option value="casa">Casa</option>
-  
-              </select>
+              <div class="box">
+                  <p class="label1">Tipo de Propriedade: </p>
+                  <select name="type" class="input" required>
+                      <option value="apartamento">Apartamento</option>
+                      <option value="casa">Casa</option>
+                  </select>
+              </div>
+
+              <div class="box">
+                <p class="label1">Preço Máximo</p>
+                <select name="maximo" class="input" required>
+                    <option value="10000">10.000 R$</option>
+                    <option value="30000">30.000 R$</option>
+                    <option value="50000">50.000 R$</option>
+                    <option value="100000">100.000 R$</option>
+                    <option value="500000">500.000 R$</option>
+                    <option value="1000000">1.000.000 R$</option>
+                    <option value="1000000">100.000.000 R$</option>
+                </select>
             </div>
-            <div class="box">
-              <p>Quantos Banheiros</p>
-              <select name="banheiros" class="input" required>
-                <option value="1">1 Banheiro</option>
-                <option value="2">2 Banheiros</option>
-                <option value="3">3 Banheiros</option>
-                <option value="4">4 Banheiros</option>
-                <option value="5">5 Banheiros</option>
-                <option value="6">6 Banheiros</option>
-                <option value="7">7 Banheiros</option>
-                <option value="8">8 Banheiros</option>
-                <option value="9">9 Banheiros</option>
-              </select>
-            </div>
-            <div class="box">
-              <p>Quantos Quartos</p>
-              <select name="quartos" class="input" required>
-                <option value="1">1 Quarto</option>
-                <option value="2">2 Quartos</option>
-                <option value="3">3 Quartos</option>
-                <option value="4">4 Quartos</option>
-                <option value="5">5 Quartos</option>
-                <option value="6">6 Quartos</option>
-                <option value="7">7 Quartos</option>
-                <option value="8">8 Quartos</option>
-                <option value="9">9 Quartos</option>
-              </select>
-            </div>
-            <div class="box">
-              <p>Preço Máximo</p>
-              <select name="maximo" class="input" required>
-                <option value="10000">10.000 R$</option>
-                <option value="30000">30.000 R$</option>
-                <option value="50000">50.000 R$</option>
-                <option value="100000">100.000 R$</option>
-                <option value="500000">500.000 R$</option>
-                <option value="1000000">1.000.000 R$</option>
-                <option value="1000000">100.000.000 R$</option>
-              </select>
-            </div>
-  
           </div>
+              <div class="box">
+                  <p class="label1">Quantos Banheiros</p>
+                  <input type="number" class="input form-control" id="banheiros" required placeholder="Digite aqui o número de banheiros">
+              </div>
+              <div class="box">
+                  <p class="label1">Quantos Quartos</p>
+                  <input type="number" class="input form-control" id="quartos" required placeholder="Digite aqui o número de quartos">
+              </div>
 
           <div style=" display: flex;
-          justify-content: center;
-          align-items: center;
-          height: 100%;">
-            <a href="pesquisa.html" class="botao2">Pesquisar</a>
+              justify-content: center;
+              align-items: center;
+              height: 100%;">
+              <a href="pesquisa.html" class="botao2">Pesquisar</a>
           </div>
 
-        </form>
+      </form>
   
       </section>
   
@@ -272,8 +252,7 @@
               </div>
               <div class="barra-card">
                 <p class="text-espaco"><i class="fi fi-sr-bed"></i> 2<span class="espaco"></span><i
-                    class="fi fi-sr-bath"></i> 1<span class="espaco"></span><i class="fi fi-br-expand-arrows"></i> 300
-                  m²</p>
+                    class="fi fi-sr-bath"></i> 1<span class="espaco"></span><i class="fi fi-br-expand-arrows"></i> 300 m²</p>
               </div>
               <div class="card-text" style="margin-bottom: 20px;">
                 <p>Valor<span class="espaco"></span><span class="espaco"></span>Avaliações</p>

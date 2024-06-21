@@ -1,8 +1,9 @@
 .botao2{
   background-color: #223550;
   color: #FFFFFF;
-  border-radius: 16px;
-  padding: 15px 32px;
+  border-radius: 10px;
+  
+  padding: 12px 30px;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
@@ -12,7 +13,7 @@
 
 }
 .botao2:hover {
-  background-color:steelblue ;
+  background-color: #5f7aa1 ;
 }
 
 .home{
@@ -22,7 +23,7 @@
 }
 
 .home .center{
-  min-height: 85vh;
+  min-height: 40rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -31,10 +32,11 @@
 .home .center form{
   border: none;
   border-radius: 15px;
-  background-color: #d2d2d2;
+  background-color: #FFF;
   padding: 2rem;
   width: 50rem;
-  margin-top: 1rem;
+  margin-top: 2rem;
+  margin-top: 100px;
 }
 
 .home .center form h3{
@@ -45,7 +47,7 @@
 
 .home .center form .flex{
   display: flex;
-  gap:1rem;
+  gap: 1rem;
   flex-wrap: wrap;
 }
 
@@ -55,10 +57,10 @@
 
 .home .center form .box .input{
   width: 100%;
-  border: 1px;
-  padding: 1.4rem;
+  border: 1px solid #cccccc;
+  padding: 10px;
   color: #000;
-  margin: 1rem 0;
+  /*margin: 1rem 0;*/
 }
 
 .home .center form .box p{
@@ -101,14 +103,13 @@
 }
 
 
-
-
 .page-link {
   color: #223550;
   }
 .quem-somos{
   margin: 40px;
   margin-top: 120px;
+  margin-bottom: 220px;
   text-align: justify;
   width: 50%;
 }
@@ -149,6 +150,12 @@
     font-size: large;
     font-weight: bold;
     padding-bottom: 10px;
+  }
+  
+  .label1{
+    font-size: large;
+    font-weight: bold;
+    /*padding-bottom: 10px;*/
   }
   
   .input{
@@ -529,7 +536,13 @@ div.barra-card {
 }
 .btn{
     background-color: #223550;
+    border: none;
 }
+
+.btn:hover {
+  background-color: #5f7aa1 ;
+}
+
 .custom-section {
     padding: 60px 0;
     align-items: center;
