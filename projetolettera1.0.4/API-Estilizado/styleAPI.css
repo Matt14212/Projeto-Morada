@@ -1,0 +1,38 @@
+.row{
+    margin-bottom: 5px;
+}
+
+/* Estilo para a classe containerAPI */
+.containerAPI {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1140px; /* Alinha a largura máxima com o tamanho do container padrão */
+  }
+  
+  @media (min-width: 576px) {
+    .containerAPI {
+      max-width: 540px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .containerAPI {
+      max-width: 720px;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .containerAPI {
+      max-width: 960px;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .containerAPI {
+      max-width: 1140px;
+    }
+  }
+  

@@ -1,0 +1,488 @@
+@import url("https://db.onlinewebfonts.com/c/1d7637871ff7d7c709c0e54c77703e42?family=Pontif+LP+W01+Regular");
+
+@font-face {
+  font-family: "Pontif LP W01 Regular";
+  src: url("https://db.onlinewebfonts.com/t/1d7637871ff7d7c709c0e54c77703e42.eot");
+  src: url("https://db.onlinewebfonts.com/t/1d7637871ff7d7c709c0e54c77703e42.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/1d7637871ff7d7c709c0e54c77703e42.woff2")
+      format("woff2"),
+    url("https://db.onlinewebfonts.com/t/1d7637871ff7d7c709c0e54c77703e42.woff")
+      format("woff"),
+    url("https://db.onlinewebfonts.com/t/1d7637871ff7d7c709c0e54c77703e42.ttf")
+      format("truetype"),
+    url("https://db.onlinewebfonts.com/t/1d7637871ff7d7c709c0e54c77703e42.svg#PontifLPW01Regular")
+      format("svg");
+}
+
+/*------------------- BACKGROUND IMAGE ---------------------*/
+body {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), 
+                    url('img/Background.png'); /* Caminho da imagem */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3); 
+  pointer-events: none; /* Permite interagir com os elementos abaixo */
+}
+
+.background {
+  width: 100%;
+  padding: 50px 0;
+  background-color: white;
+  position: relative;
+}
+
+/*----------------------------------------------------------*/
+
+.card {
+  padding: 10px;
+  margin: 10px 0 0 40px;
+  box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.3);
+}
+
+.col {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 500px !important;
+}
+
+.container1 {
+  display: flex;
+  justify-content: center !important;
+  margin-left: 60px;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  align-items: center;
+}
+
+.card img {
+  width: 100%;
+  height: 12rem; /* Altere para a altura desejada */
+  object-fit: cover; /* Ajusta a imagem sem distorção */
+}
+
+
+
+/*----------------DIVISÓRIAS---------*/
+.linha {
+  background-color: #037f36;
+  width: 100%;
+  padding: 50px;
+}
+
+.linhaMaior {
+  background-color: #037f36;
+  width: 100%;
+  padding: 50px;
+}
+
+.Nossaslojas {
+  position: relative;
+  background-color: #037f36;
+  border-radius: 30px 0 0 30px; /* Apenas as bordas da esquerda ficam redondas */
+  margin-left: auto;
+  margin-right: 0;
+  margin-bottom: 50px;
+  width: 1000px !important;
+  height: 300px;
+}
+
+/*-------------- NAVBAR -----------*/
+.barra_navegar {
+  font-family: "Pontif LP W01 Regular", sans-serif;
+}
+.navbar .dropdown-menu {
+  background-color: #1e623d !important; /* Cor de fundo do dropdown */
+}
+
+.navbar .dropdown-item {
+  font-size: 18px;
+  color: #ffffff !important; /* Cor do texto dos itens do dropdown */
+}
+
+.navbar .dropdown-item:hover,
+.navbar .dropdown-item:focus {
+  background-color: #ffffff !important; /* Cor do texto ao passar o mouse */
+  color: #1e623d !important;
+}
+
+.text-white {
+  font-size: 1.4rem !important;
+  color: #ffffff !important;
+}
+/*-------------- FOOTER -----------*/
+#direitos {
+  text-align: center;
+}
+footer {
+  background-color: #037f36;
+  color: #ffffff;
+  padding: 20px 0;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer-column {
+  flex: 1;
+  min-width: 200px;
+  margin: 10px;
+}
+
+.footer-column h3 {
+  margin-top: 0;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-column ul li a:hover {
+  text-decoration: underline;
+}
+
+.footer-column p {
+  margin: 0 0 10px;
+}
+
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer-column {
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+/*-------------- PRINCIPAL -----------*/
+
+.container {
+  background-color: white;
+  padding: 50px;
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 10px;
+  width: 100%;
+  max-width: 100vw; /* Limita o tamanho ao máximo da largura da tela */
+  overflow-x: hidden; /* Evita transbordamento na horizontal */
+}
+
+.container div {
+  font-family: "Times New Roman", Times, serif;
+  font-size: large;
+}
+
+.fonte-times {
+  font-family: "Times New Roman", Times, serif !important;
+  font-size: large;
+}
+
+.texto1 {
+  padding-top: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.carousel-item {
+  width: 1000px;
+  height: 500px;
+}
+
+.carrossel {
+  width: 1000px;
+  height: 500px;
+  margin: 0 auto;
+  border-bottom-width: 10px;
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+}
+
+/*------------- jp ---------------*/
+
+
+.container-lojas {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 80%;
+  margin: 0 120px;
+  padding: 50px 0;
+  position: relative;
+  z-index: 1;
+}
+
+.mapa-lojas {
+  width: 75%;
+  margin: 0 auto;
+}
+
+#mapa {
+  justify-content: center;
+}
+
+.botoes-lojas {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  flex-wrap: wrap;
+}
+
+.botoes-lojas button {
+  background-color: #187b31;
+  color: white;
+  padding: 20px;
+  border: none;
+  border-radius: 20px 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  margin-right: 5px;
+  transition: background-color 0.3s;
+  font-size: 1.2rem;
+}
+
+.botoes-lojas button:hover {
+  background-color: #155f26;
+}
+
+.botoes-lojas button.active {
+  background-color: #187b31;
+  border-radius: 15px 15px 2px 0px;
+  transform: translateY(20px);
+}
+
+.mapa-container {
+  position: relative;
+  border: 20px solid #187b31;
+  border-radius: 15px 15px 15px 15px;
+  overflow: hidden;
+  text-align: center;
+  margin: 0 auto;
+}
+
+
+.mapa-container p {
+  background-color: #187b31;
+  color: white;
+  font-size: 1.5rem;
+  margin: 0 auto;
+  padding-top: 15px;
+}
+
+.mapa-container img {
+  width: 100%;
+  height: auto;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+}
+
+.texto {
+  z-index: 1;
+  width: 35%;
+  height: max-content;
+  padding: 30px;
+  border-radius: 3px;
+  font-size: 1.25rem;
+  margin: 0 auto;
+  box-shadow: 4px 6px 6px 4px rgb(145, 145, 145, 0.6);
+}
+
+/*
+.fundo {
+  background-image: linear-gradient(to bottom, #ffffff, #dddd);
+}
+
+h1:after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 3px;
+  background: #6d2db0;
+}
+*/
+.form-container {
+  width: 45%;
+  background-color: #f3f3f3;
+  padding: 3rem;
+  border-radius: 15px;
+  margin-top: -20px;
+  box-shadow: 0 0 8px 2px #d1d1d1, 4px 4px 8px 1px #ccc;
+}
+
+.form-container h2 {
+  margin-bottom: 20px;
+  font-family: sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.form-container input,
+.form-container textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.form-container textarea {
+  height: 100px;
+}
+
+.navbar-toggler {
+  border-color: white !important;
+}
+
+.navbar-toggler:focus {
+  border-color: white !important;
+}
+
+.navbar-toggler-icon {
+  background-image: none !important;
+}
+.texto::first-letter {
+  color: #187b31;
+  font-size: 2.6em;
+  font-weight: bold;
+  line-height: 1;
+  margin-inline-end: 0.2rem;
+}
+.texto::after {
+  content: "";
+  display: flex;
+  width: 25px;
+  height: 4px;
+  background-color: #187b31;
+  margin-bottom: 5px;
+}
+
+@media (max-width: 768px) {
+  .container-lojas {
+    margin: 0 auto;
+  }
+
+  .mapa-lojas {
+    width: 100%;
+  }
+
+  .loja-button {
+    flex-direction: column;
+    margin: 10px;
+  }
+
+  .botoes-lojas button {
+    width: 100%;
+    margin-bottom: 0px;
+    font-size: 0.75rem;
+  }
+
+  .container {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .texto {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .form-container {
+    width: 100%;
+  }
+
+  .botoes-lojas button.active {
+    transform: translateY(5px);
+  }
+
+  .texto-lojas h1 {
+    font-size: 28px;
+  }
+
+  .texto-lojas p {
+    font-size: 14px;
+  }
+
+  .botoes-lojas button {
+    padding: 15px;
+    font-size: 1rem;
+  }
+
+  .mapa-container p {
+    font-size: 1.2rem;
+  }
+
+  .container {
+    padding: 20px;
+  }
+
+  .form-container h2 {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 1400px) {
+  .mapa-lojas {
+    flex-direction: column;
+  }
+
+  .texto-lojas,
+  .mapa-container {
+    max-width: 100%;
+    width: 100%;
+  }
+  .loja-button {
+    font-size: 5px;
+    display: block;
+  }
+
+  .texto-lojas h1 {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 480px) {
+  .form-container,
+  .texto {
+    font-size: 20px;
+    display: block;
+    flex-direction: column;
+  }
+
+  .map-frame {
+    height: 250px;
+  }
+}
